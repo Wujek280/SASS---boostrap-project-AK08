@@ -1,0 +1,34 @@
+#contact {
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+   background-size: cover;
+   background-position: center;
+   h2,
+   p {
+      color: #fff;
+   }
+   input {
+      &:not([type='submit']),
+      #contact textarea {
+         width: 100%;
+         border: 0px solid;
+         &:not(: last-child) {
+            margin-bottom: 30px;
+         }
+      }
+   }
+   input[type="submit"] {
+      margin-top: 30px;
+   }
+   textarea {
+      text-transform: uppercase;
+      padding: 15px;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 5px;
+   }
+   &::-webkit-input-placeholder,
+   &::-moz-placeholder,
+   &:-ms-input-placeholder,
+   &:-moz-placeholder {
+      color: #777;
+   }
+}

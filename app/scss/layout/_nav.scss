@@ -1,0 +1,53 @@
+#main-nav {
+   &.scroll {
+      background-color: rgba(14, 216, 214, 0.85);
+      a {
+         color: #777;
+         &:hover {
+            color: #fff
+         }
+      }
+   }
+   background-color: transparent;
+   border: 0;
+   a {
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      transition: all .3s;
+      &.navbar-brand {
+         font-size: 2em;
+         font-family: 'Droid Serif', sans-serif;
+         text-transform: none;
+      }
+      &:hover {
+         color: #0ed8d6;
+      }
+   }
+   background-color: transparent;
+   border 0;
+   &.scroll {
+      background-color: rgba(14, 216, 214, 0.85);
+      a {
+         color: #fff;
+         &:hover {
+            color: #777
+         }
+      }
+   }
+}
+
+a {
+   color: #fff;
+   text-transform: uppercase;
+   font-family: $header-font;
+   transition: all .3s;
+   &:hover {
+      color: $secondary-color;
+   }
+   &.navbar-brand {
+      font-size: 2em;
+      font-family: 'Droid Serif', sans-serif;
+      text-transform: none;
+   }
+}
